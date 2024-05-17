@@ -71,10 +71,10 @@ Once the contract is deployed, you can interact with it.
 
 >The second require statement checks if the input value is not zero. If the input value is zero, the function will revert and the state of the contract will not be updated. The error message "The New Value Cannot Be Zero" will be displayed to the user.
 
-*Assert
+* Assert
 >The contract also includes an assertFunction function that takes a single argument _num of type uint256. This function returns the input value _num if it is not zero. However, before returning the value, the function includes an assert statement to validate the input and ensure that the contract's state is updated correctly and securely. If the input value is zero, the function will throw an exception and the state of the contract will not be updated.
 
-*Revert
+* Revert
 >The contract includes a revertFunction function that takes a single argument _num of type uint256. This function returns the input value _num if it is not zero. However, if the input value is zero, the function includes a revert statement to revert the state of the contract and display an error message "The Number Cannot Be Zero".
 
 # Authors
